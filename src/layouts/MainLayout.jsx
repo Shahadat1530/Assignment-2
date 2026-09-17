@@ -4,7 +4,7 @@ import NavBar from "../shared/NavBar";
 
 const MainLayout = () => {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="max-w-7xl mx-auto mt-2">
       <NavBar />
       <div className="min-h-screen">
         <Outlet />
