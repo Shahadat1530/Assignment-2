@@ -24,7 +24,7 @@ const HeroSection = () => {
             help you find the perfect movie to watch tonight for free.
           </p>
           <Link to={'/movies'}>
-            <button className="py-2 px-4 bg-red-400 rounded-xl">
+            <button className="py-2 px-4 bg-red-400 rounded-xl cursor-pointer">
               Watch Free!
             </button>
           </Link>

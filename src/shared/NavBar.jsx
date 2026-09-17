@@ -3,7 +3,7 @@ import { Link } from "react-router";
 
 const NavBar = () => {
   return (
-    <div className="flex justify-between items-center border-b-2 py-1 sticky top-0 z-50 font-semibold">
+    <div className="flex justify-between items-center border-b-2 py-1 sticky top-0 z-50 font-semibold backdrop-blur-sm">
       {/* logo/branding */}
       <div className="flex gap-1 items-center">
         <Film size={30} color="red" />
